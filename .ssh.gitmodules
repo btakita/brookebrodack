@@ -16,3 +16,15 @@
 [submodule "lib/ui--server--blog"]
 	path = lib/ui--server--blog
 	url = git@github.com:btakita/ui--server--blog.git
+[submodule "lib/ui--all--brookebrodack"]
+	path = lib/ui--all--brookebrodack
+	url = git@github.com:btakita/ui--all--brookebrodack.git
+[submodule "lib/domain--browser--brookebrodack"]
+	path = lib/domain--browser--brookebrodack
+	url = git@github.com:btakita/domain--browser--brookebrodack.git
+[submodule "lib/ui--server--brookebrodack"]
+	path = lib/ui--server--brookebrodack
+	url = git@github.com:btakita/ui--server--brookebrodack.git
+[submodule "lib/ui--browser--brookebrodack"]
+	path = lib/ui--browser--brookebrodack
+	url = git@github.com:btakita/ui--browser--brookebrodack.git
