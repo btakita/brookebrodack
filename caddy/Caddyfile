@@ -1,0 +1,42 @@
+# See: https://blog.cloud66.com/running-rails-development-with-a-fake-domain-and-ssl/
+# mkcert my.brookebrodack
+# /etc/hosts
+# 127.0.0.1 my.brookebrodack
+{
+  auto_https disable_redirects
+}
+my.brookebrodack {
+  tls my.brookebrodack.pem my.brookebrodack-key.pem
+  @not_static {
+    not {
+      file {
+        try_files {path}
+      }
+    }
+  }
+  reverse_proxy @not_static localhost:4101
+#  root * ../apps/web/static
+  file_server
+}
+http://my.brookebrodack {
+  @not_static {
+    not {
+      file {
+        try_files {path}
+      }
+    }
+  }
+  reverse_proxy @not_static localhost:4101
+#  root * ../apps/web/static
+  file_server
+}
+my.brookebrodack.local {
+  @not_static {
+    not {
+      file {
+        try_files {path}
+      }
+    }
+  }
+	reverse_proxy @not_static localhost:14101
+}
