@@ -1,0 +1,33 @@
+[submodule "app/brookebrodack-site"]
+	path = app/brookebrodack-site
+	url = git@github.com:btakita/brookebrodack-site.git
+[submodule "lib/domain--any--blog"]
+	path = lib/domain--any--blog
+	url = git@github.com:btakita/domain--any--blog.git
+[submodule "lib/domain--any--brookebrodack"]
+	path = lib/domain--any--brookebrodack
+	url = git@github.com:btakita/domain--any--brookebrodack.git
+[submodule "lib/domain--browser--brookebrodack"]
+	path = lib/domain--browser--brookebrodack
+	url = git@github.com:btakita/domain--browser--brookebrodack.git
+[submodule "lib/domain--server"]
+	path = lib/domain--server
+	url = git@github.com:btakita/domain--server.git
+[submodule "lib/domain--server--blog"]
+	path = lib/domain--server--blog
+	url = git@github.com:btakita/domain--server--blog.git
+[submodule "lib/ui--any--blog"]
+	path = lib/ui--any--blog
+	url = git@github.com:btakita/ui--any--blog.git
+[submodule "lib/ui--any--brookebrodack"]
+	path = lib/ui--any--brookebrodack
+	url = git@github.com:btakita/ui--any--brookebrodack.git
+[submodule "lib/ui--browser--brookebrodack"]
+	path = lib/ui--browser--brookebrodack
+	url = git@github.com:btakita/ui--browser--brookebrodack.git
+[submodule "lib/ui--server--blog"]
+	path = lib/ui--server--blog
+	url = git@github.com:btakita/ui--server--blog.git
+[submodule "lib/ui--server--brookebrodack"]
+	path = lib/ui--server--brookebrodack
+	url = git@github.com:btakita/ui--server--brookebrodack.git
