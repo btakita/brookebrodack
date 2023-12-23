@@ -2,6 +2,10 @@
   "name": "@btakita/brookebrodack-dev",
   "type": "module",
   "scripts": {
+    "assets--download": "./bin/assets--download.sh",
+    "assets--download--sync": "./bin/assets--download--sync.sh",
+    "assets--upload": "./bin/assets--upload.sh",
+    "assets--upload--sync": "./bin/assets--upload--sync.sh",
     "build": "cd ./app/brookebrodack-site && bun run build",
     "clear": "cd ./app/brookebrodack-site && bun clear",
     "dev": "cd ./app/brookebrodack-site && bun dev",
