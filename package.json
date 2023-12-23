@@ -10,9 +10,12 @@
   "devDependencies": {
     "@btakita/-brookebrodack-dev-bin": "workspace:*",
     "@changesets/cli": "^2.27.1",
-    "@ctx-core/monorepo": "^20.5.131",
+    "@ctx-core/monorepo": "^21.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
     "broken-link-checker": "^0.7.8",
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "eslint": "^8.56.0"
   },
   "peerDependencies": {
     "typescript": "^5.3.3"
