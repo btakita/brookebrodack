@@ -31,3 +31,6 @@
 [submodule "lib/ui--server--brookebrodack"]
 	path = lib/ui--server--brookebrodack
 	url = git@github.com:btakita/ui--server--brookebrodack.git
+[submodule "lib/esmcss"]
+	path = lib/esmcss
+	url = git@github.com:esmcss/esmcss.git
