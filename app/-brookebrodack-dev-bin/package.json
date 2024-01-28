@@ -4,7 +4,23 @@
 	"type": "module",
 	"version": "0.0.0",
 	"bin": {
-		"tmux-dev": "bin/tmux-dev.sh"
+		"brookebrodack--docker-compose--build": "bin/brookebrodack--docker-compose--build.sh",
+		"brookebrodack--docker-compose--restart": "bin/brookebrodack--docker-compose--restart.sh",
+		"brookebrodack--docker-compose--stop": "bin/brookebrodack--docker-compose--stop.sh",
+		"brookebrodack--docker-compose--up": "bin/brookebrodack--docker-compose--up.sh",
+		"brookebrodack-site--build": "bin/brookebrodack-site--build.sh",
+		"brookebrodack-site--docker-compose--rebuild": "bin/brookebrodack-site--docker-compose--rebuild.sh",
+		"brookebrodack-site--docker-compose--restart": "bin/brookebrodack-site--docker-compose--restart.sh",
+		"dev--brookebrodack--docker-compose--restart": "bin/dev--brookebrodack--docker-compose--restart.sh",
+		"dev--brookebrodack--docker-compose--up": "bin/dev--brookebrodack--docker-compose--up.sh",
+		"dev--brookebrodack-site--docker-compose--rebuild": "bin/dev--brookebrodack-site--docker-compose--rebuild.sh",
+		"dev--brookebrodack-site--docker-compose--restart": "bin/dev--brookebrodack-site--docker-compose--restart.sh",
+		"docker-compose--init": "bin/docker-compose--init.sh",
+		"tmux-dev": "bin/tmux-dev.sh",
+		"tmux-rename-window": "bin/tmux-rename-window.sh",
+		"traefik--docker-compose--restart": "bin/traefik--docker-compose--restart.sh",
+		"traefik--docker-compose--stop": "bin/traefik--docker-compose--stop.sh",
+		"traefik--docker-compose--up": "bin/traefik--docker-compose--up.sh"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
