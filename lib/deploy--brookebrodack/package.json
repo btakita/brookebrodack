@@ -1,0 +1,36 @@
+{
+	"private": true,
+	"name": "@btakita/deploy--brookebrodack",
+	"version": "0.0.1",
+	"description": "deployment for brookebrodack site",
+	"type": "module",
+	"main": "./index.ts",
+	"module": "./index.ts",
+	"types": "./index.ts",
+	"scripts": {
+		"build": ":",
+		"clean": ":",
+		"test": "bun test-unit && check-dts",
+		"test-unit": "tsm node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
+		"test-unit-coverage": "c8 bun test-unit"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/btakita/brookebrodack-dev.git"
+	},
+	"keywords": [
+		"ctx-core",
+		"auth"
+	],
+	"author": "Brian Takita",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/btakita/brookebrodack-dev/issues"
+	},
+	"homepage": "https://bb.briantakita.me",
+	"devDependencies": {
+		"ctx-core": "^5.34.0",
+		"rmemo": "^0.39.1"
+	},
+	"sideEffects": false
+}
