@@ -4,6 +4,7 @@
 	"type": "module",
 	"version": "0.0.0",
 	"bin": {
+		"_env__validate": "./bin/_env__validate.sh",
 		"brookebrodack--docker-compose--build": "bin/brookebrodack--docker-compose--build.sh",
 		"brookebrodack--docker-compose--restart": "bin/brookebrodack--docker-compose--restart.sh",
 		"brookebrodack--docker-compose--stop": "bin/brookebrodack--docker-compose--stop.sh",
