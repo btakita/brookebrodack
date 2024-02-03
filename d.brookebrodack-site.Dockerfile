@@ -4,6 +4,6 @@ ARG UID=1000
 ARG GID
 ENV NODE_ENV=production
 WORKDIR /app
-EXPOSE 4020
+EXPOSE 4101
 
 CMD ["bun", "-b", "start"]

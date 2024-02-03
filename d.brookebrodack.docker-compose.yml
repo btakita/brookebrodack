@@ -7,11 +7,11 @@ services:
     expose:
       - "80"
       - "443"
-      - "4020"
+      - "4101"
     labels:
       - "traefik.enable=true"
       - "traefik.docker.network=web"
-      - "traefik.http.services.brookebrodack-site.loadbalancer.server.port=4020"
+      - "traefik.http.services.brookebrodack-site.loadbalancer.server.port=4101"
       - "traefik.http.routers.brookebrodack-site.rule=Host(`${HOST:-bb.briantakita.me}`)"
       - "traefik.http.routers.brookebrodack-site.tls.certresolver=acme"
       - "traefik.http.middlewares.test-retry.retry.attempts=4"
