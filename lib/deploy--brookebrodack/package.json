@@ -29,8 +29,8 @@
 	},
 	"homepage": "https://bb.briantakita.me",
 	"devDependencies": {
-		"ctx-core": "^5.34.0",
-		"rmemo": "^0.39.1"
+		"ctx-core": "^5.37.0",
+		"rmemo": "^0.41.0"
 	},
 	"sideEffects": false
 }
