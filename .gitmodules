@@ -10,9 +10,6 @@
 [submodule "lib/domain--browser--brookebrodack"]
 	path = lib/domain--browser--brookebrodack
 	url = git@github.com:btakita/domain--browser--brookebrodack.git
-[submodule "lib/domain--server"]
-	path = lib/domain--server
-	url = git@github.com:btakita/domain--server.git
 [submodule "lib/domain--server--blog"]
 	path = lib/domain--server--blog
 	url = git@github.com:btakita/domain--server--blog.git
