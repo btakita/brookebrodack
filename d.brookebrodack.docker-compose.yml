@@ -14,8 +14,8 @@ services:
       - "traefik.http.services.brookebrodack-site.loadbalancer.server.port=4101"
       - "traefik.http.routers.brookebrodack-site.rule=Host(`${HOST:-bb.briantakita.me}`)"
       - "traefik.http.routers.brookebrodack-site.tls.certresolver=acme"
-      - "traefik.http.middlewares.test-retry.retry.attempts=4"
-      - "traefik.http.middlewares.test-retry.retry.initialinterval=100ms"
+      - "traefik.http.middlewares.brookebrodack-site.retry.attempts=4"
+      - "traefik.http.middlewares.brookebrodack-site.retry.initialinterval=100ms"
     networks:
       - web
     volumes:
