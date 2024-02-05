@@ -42,3 +42,6 @@
 	path = lib/esmcss
 	url = git@github.com:esmcss/esmcss.git
 	branch = main
+[submodule "lib/dev-bin"]
+	path = lib/dev-bin
+	url = git@github.com:btakita/dev-bin.git

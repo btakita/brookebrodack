@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "@btakita/-brookebrodack-dev-bin": "workspace:*",
+    "@btakita/dev-bin": "workspace:*",
     "@changesets/cli": "^2.27.1",
     "@ctx-core/monorepo": "^21.4.31",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
