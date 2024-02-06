@@ -1,4 +1,4 @@
-import { type root_ctx_T } from '@btakita/domain--any--blog'
+import { type root_ctx_T } from '@rappstack/domain--any--blog'
 import { deploy__env } from './deploy__env.js'
 import { NODE_ENV_ } from './stage.js'
 export function deploy__environment__new(ctx:root_ctx_T) {
