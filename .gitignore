@@ -3,4 +3,5 @@ node_modules/
 .env
 .gitmodules
 public/assets
+public/product
 letsencrypt

@@ -26,9 +26,13 @@
 		"tmux-rename-window": "bin/tmux-rename-window.sh",
 		"traefik--docker-compose--restart": "bin/traefik--docker-compose--restart.sh",
 		"traefik--docker-compose--stop": "bin/traefik--docker-compose--stop.sh",
-		"traefik--docker-compose--up": "bin/traefik--docker-compose--up.sh"
+		"traefik--docker-compose--up": "bin/traefik--docker-compose--up.sh",
+		"zen-landscapes--watermark": "bin/zen-landscapes--watermark.mjs"
 	},
 	"devDependencies": {
-		"bun-types": "latest"
+		"bun-types": "latest",
+		"canvas": "^2.11.2",
+		"ctx-core": "^5.38.1",
+		"ora": "^8.0.1"
 	}
 }
