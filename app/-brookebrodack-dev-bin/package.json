@@ -22,12 +22,16 @@
 		"docker-compose--restart": "bin/docker-compose--restart.sh",
 		"docker-compose--stop": "bin/docker-compose--stop.sh",
 		"docker-compose--up": "bin/docker-compose--up.sh",
+		"product--download": "./bin/product--download.sh",
+		"product--download--sync": "./bin/product--download--sync.sh",
+		"product--upload": "./bin/product--upload.sh",
+		"product--upload--sync": "./bin/product--upload--sync.sh",
 		"tmux-dev": "bin/tmux-dev.sh",
 		"tmux-rename-window": "bin/tmux-rename-window.sh",
 		"traefik--docker-compose--restart": "bin/traefik--docker-compose--restart.sh",
 		"traefik--docker-compose--stop": "bin/traefik--docker-compose--stop.sh",
 		"traefik--docker-compose--up": "bin/traefik--docker-compose--up.sh",
-		"zen-landscapes--watermark": "bin/zen-landscapes--watermark.mjs"
+		"zen-landscapes--watermark": "bin/zen-landscapes--watermark.ts"
 	},
 	"devDependencies": {
 		"bun-types": "latest",
