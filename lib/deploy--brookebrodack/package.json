@@ -1,12 +1,15 @@
 {
 	"private": true,
 	"name": "@btakita/deploy--brookebrodack",
+	"type": "module",
 	"version": "0.0.1",
 	"description": "deployment for brookebrodack site",
-	"type": "module",
-	"main": "./index.ts",
-	"module": "./index.ts",
-	"types": "./index.ts",
+	"author": "Brian Takita",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/btakita/brookebrodack-dev/issues"
+	},
+	"homepage": "https://bb.briantakita.me",
 	"scripts": {
 		"build": ":",
 		"clean": ":",
@@ -22,12 +25,17 @@
 		"ctx-core",
 		"auth"
 	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/btakita/brookebrodack-dev/issues"
+	"types": "./index.ts",
+	"exports": {
+		".": "./index.ts",
+		"./package.json": "./package.json"
 	},
-	"homepage": "https://bb.briantakita.me",
+	"files": [
+		"*.d.ts",
+		"*.js",
+		"*.json",
+		"deploy"
+	],
 	"devDependencies": {
 		"ctx-core": "^5.38.1",
 		"rmemo": "^0.42.1"
