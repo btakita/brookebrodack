@@ -54,3 +54,6 @@
 [submodule "lib/domain--server--auth"]
 	path = lib/domain--server--auth
 	url = git@github.com:rappstack/domain--server--auth.git
+[submodule "lib/domain--browser"]
+	path = lib/domain--browser
+	url = git@github.com:rappstack/domain--browser.git
