@@ -51,3 +51,6 @@
 	branch = main
 	path = lib/ui--server--brookebrodack
 	url = git@github.com:btakita/ui--server--brookebrodack.git
+[submodule "lib/domain--server--auth"]
+	path = lib/domain--server--auth
+	url = git@github.com:rappstack/domain--server--auth.git
