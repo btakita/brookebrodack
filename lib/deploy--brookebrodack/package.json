@@ -37,8 +37,8 @@
 		"deploy"
 	],
 	"devDependencies": {
-		"ctx-core": "^6.1.2",
-		"rmemo": "^0.44.2"
+		"ctx-core": "^6.1.3",
+		"rmemo": "^0.44.3"
 	},
 	"sideEffects": false
 }
