@@ -13,6 +13,9 @@
 	branch = main
 	path = lib/domain--any--brookebrodack
 	url = git@github.com:btakita/domain--any--brookebrodack.git
+[submodule "lib/domain--browser"]
+	path = lib/domain--browser
+	url = git@github.com:rappstack/domain--browser.git
 [submodule "lib/domain--browser--brookebrodack"]
 	branch = main
 	path = lib/domain--browser--brookebrodack
@@ -20,10 +23,19 @@
 [submodule "lib/domain--server"]
 	path = lib/domain--server
 	url = git@github.com:rappstack/domain--server.git
+[submodule "lib/domain--server--auth"]
+	path = lib/domain--server--auth
+	url = git@github.com:rappstack/domain--server--auth.git
 [submodule "lib/domain--server--blog"]
 	branch = main
 	path = lib/domain--server--blog
 	url = git@github.com:btakita/domain--server--blog.git
+[submodule "lib/domain--server--brookebrodack"]
+	path = lib/domain--server--brookebrodack
+	url = git@github.com:btakita/domain--server--brookebrodack.git
+[submodule "lib/domain--server--youtube"]
+	path = lib/domain--server--youtube
+	url = git@github.com:rappstack/domain--server--youtube.git
 [submodule "lib/esmcss"]
 	branch = main
 	path = lib/esmcss
@@ -51,9 +63,3 @@
 	branch = main
 	path = lib/ui--server--brookebrodack
 	url = git@github.com:btakita/ui--server--brookebrodack.git
-[submodule "lib/domain--server--auth"]
-	path = lib/domain--server--auth
-	url = git@github.com:rappstack/domain--server--auth.git
-[submodule "lib/domain--browser"]
-	path = lib/domain--browser
-	url = git@github.com:rappstack/domain--browser.git
