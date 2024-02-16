@@ -22,6 +22,9 @@ services:
       - "traefik.http.middlewares.brookebrodack-site-host-redirect.redirectregex.regex=^https://www.brookebrodack.net/(.*)"
       - "traefik.http.middlewares.brookebrodack-site-host-redirect.redirectregex.replacement=https://brookebrodack.net/$${1}"
       - "traefik.http.middlewares.brookebrodack-site-host-redirect.redirectregex.permanent=true"
+      - "traefik.http.middlewares.bb-briantakita-me-host-redirect.redirectregex.regex=^https://bb.briantakita.me/(.*)"
+      - "traefik.http.middlewares.bb-briantakita-me-host-redirect.redirectregex.replacement=https://brookebrodack.net/$${1}"
+      - "traefik.http.middlewares.bb-briantakita-me-host-redirect.redirectregex.permanent=true"
     networks:
       - web
     volumes:
