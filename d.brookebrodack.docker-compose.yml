@@ -12,7 +12,7 @@ services:
       - "traefik.enable=true"
       - "traefik.docker.network=web"
       - "traefik.http.services.brookebrodack-site.loadbalancer.server.port=4101"
-      - "traefik.http.routers.brookebrodack-site.rule=Host(`${HOST:-www.brookebrodack.net}`)"
+      - "traefik.http.routers.brookebrodack-site.rule=Host(`brookebrodack.net`) || Host(`www.brookebrodack.net`)"
       - "traefik.http.routers.brookebrodack-site.tls.certresolver=acme"
       - "traefik.http.middlewares.brookebrodack-site.retry.attempts=4"
       - "traefik.http.middlewares.brookebrodack-site.retry.initialinterval=100ms"
