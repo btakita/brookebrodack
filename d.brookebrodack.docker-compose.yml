@@ -12,10 +12,16 @@ services:
       - "traefik.enable=true"
       - "traefik.docker.network=web"
       - "traefik.http.services.brookebrodack-site.loadbalancer.server.port=4101"
-      - "traefik.http.routers.brookebrodack-site.rule=Host(`${HOST:-bb.briantakita.me}`)"
+      - "traefik.http.routers.brookebrodack-site.rule=Host(`${HOST:-www.brookebrodack.net}`)"
       - "traefik.http.routers.brookebrodack-site.tls.certresolver=acme"
       - "traefik.http.middlewares.brookebrodack-site.retry.attempts=4"
       - "traefik.http.middlewares.brookebrodack-site.retry.initialinterval=100ms"
+      - "traefik.http.routers.brookebrodack-site.middlewares=brookebrodack-site-https-redirect,brookebrodack-site-host-redirect"
+      - "traefik.http.middlewares.brookebrodack-site-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.brookebrodack-site-https-redirect.redirectscheme.permanent=true"
+      - "traefik.http.middlewares.brookebrodack-site-host-redirect.redirectregex.regex=^https://www.brookebrodack.net/(.*)"
+      - "traefik.http.middlewares.brookebrodack-site-host-redirect.redirectregex.replacement=https://brookebrodack.net/$${1}"
+      - "traefik.http.middlewares.brookebrodack-site-host-redirect.redirectregex.permanent=true"
     networks:
       - web
     volumes:
