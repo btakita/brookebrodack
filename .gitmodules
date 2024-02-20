@@ -55,6 +55,9 @@
 	branch = main
 	path = lib/ui--browser--brookebrodack
 	url = git@github.com:btakita/ui--browser--brookebrodack.git
+[submodule "lib/ui--server"]
+	path = lib/ui--server
+	url = git@github.com:rappstack/ui--server.git
 [submodule "lib/ui--server--blog"]
 	branch = main
 	path = lib/ui--server--blog
