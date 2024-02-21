@@ -1,4 +1,4 @@
-# @btakita/-dev-bin
+# @btakita/-brookebrodack-dev-bin
 
 ```shell
 bun tmux-dev
