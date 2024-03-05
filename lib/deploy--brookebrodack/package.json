@@ -9,7 +9,7 @@
 	"bugs": {
 		"url": "https://github.com/btakita/brookebrodack-dev/issues"
 	},
-	"homepage": "https://www.brookebrodack.net",
+	"homepage": "https://brookebrodack.net",
 	"scripts": {
 		"build": ":",
 		"clean": ":",
