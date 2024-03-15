@@ -7,7 +7,7 @@
 		"moduleResolution": "nodenext",
 		"moduleDetection": "force",
 		"noEmit": true,
-		"composite": true,
+		"composite": falseu,
 		"strict": true,
 		"downlevelIteration": true,
 		"skipLibCheck": true,
